@@ -7,7 +7,9 @@ public class Uso_Auto {
 		
 		Auto Suzuki = new Auto();
 		
-		System.out.println("Este auto tiene "+Suzuki.ruedas+" ruedas");
+		//Suzuki.establece_color();
+		
+		System.out.println(Suzuki.dime_color());
 	}
 
 }
